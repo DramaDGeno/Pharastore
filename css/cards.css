@@ -1,0 +1,182 @@
+/* Importa la fuente Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.card-body h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(113, 53, 131);
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.card-subtitle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.card-subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(113, 53, 131);
+    font-size: 1.5rem; /* Tamaño de fuente predeterminado */
+}
+
+.cart-icon {
+    font-size: 1.5rem; /* Tamaño del icono */
+    color: purple; /* Color morado */
+}
+
+.custom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    border: 2px solid purple;
+    margin: 20px;
+    width: 450px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-image {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px; /* Radio ligero para el borde de la imagen */
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+/* Media Queries para PCs */
+@media (min-width: 1920px) {
+    .card {
+        width: 450px;
+        height: 600px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+    .card {
+        width: 400px;
+        height: 550px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+    .card {
+        width: 350px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .card {
+        width: 300px;
+        height: 450px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .card {
+        width: 250px;
+        height: 400px;
+    }
+}
+
+/* Media Queries para Celulares */
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+    }
+    
+    .card-body h3 {
+        font-size: 1.2rem; /* Ajuste del tamaño de fuente para pantallas pequeñas */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .card {
+        width: 80%;
+        height: auto;
+        margin: 15px;
+    }
+    
+    .card-body h3 {
+        font-size: 1.3rem; /* Ajuste del tamaño de fuente para pantallas medianas */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .card {
+        width: 70%;
+        height: auto;
+        margin: 20px;
+    }
+    
+    .card-body h3 {
+        font-size: 1.4rem; /* Ajuste del tamaño de fuente para pantallas medianas a grandes */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+    .card {
+        width: 60%;
+        height: auto;
+        margin: 25px;
+    }
+    
+    .card-body h3 {
+        font-size: 1.45rem; /* Ajuste del tamaño de fuente para pantallas más grandes */
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1024px) {
+    .card {
+        width: 50%;
+        height: auto;
+        margin: 30px;
+    }
+    
+    .card-body h3 {
+        font-size: 1.5rem; /* Tamaño de fuente ajustado para pantallas grandes */
+    }
+}
+
+@media (max-width: 768px) {
+    .card-group {
+        flex-direction: column;
+        align-items: center;
+    }
+}

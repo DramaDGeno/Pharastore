@@ -1,0 +1,32 @@
+/* Estilo general del footer */
+.custom-footer {
+    background-color: #141414; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px; /* Espaciado alrededor del texto */
+    text-align: center; /* Centrar el texto */
+    position: relative; /* Asegura que el footer esté posicionado correctamente */
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+/* Estilo del texto del footer */
+.footer-text {
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+    font-size: 1rem; /* Tamaño de fuente por defecto */
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer-text {
+        font-size: 0.9rem; /* Tamaño de fuente ajustado para pantallas más pequeñas */
+    }
+}
+
+/* Media Queries para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .footer-text {
+        font-size: 0.8rem; /* Tamaño de fuente ajustado para pantallas muy pequeñas */
+    }
+}
