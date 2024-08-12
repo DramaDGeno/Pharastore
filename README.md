@@ -1,0 +1,2 @@
+# Pharastore
+Pharastore only frontend
